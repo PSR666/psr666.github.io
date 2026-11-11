@@ -7,3 +7,18 @@ header{position:sticky;z-index:20;top:0;height:66px;display:flex;align-items:cen
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}a{transition:none}}
 
 .academic-score{display:inline-block;margin-top:6px;color:var(--accent);font-size:13px;font-weight:700}
+
+/* Centered introduction and reference-style news section. */
+.profile{max-width:780px;margin:0 auto 35px;padding:49px 15px 12px;text-align:center}
+.profile h1{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:15px;font-size:36px;line-height:1.35;letter-spacing:-.6px;text-align:center;margin:0 0 27px}
+.name-zh{font-size:27px;font-weight:500;letter-spacing:2px;color:#626782}
+.profile-bio{max-width:750px;margin:0 auto 17px;font-size:15px;line-height:1.85;text-align:center;color:#505b70}
+.profile-bio strong{font-weight:700;color:#46537c;white-space:nowrap}
+.profile-bio+ .profile-bio{max-width:710px;font-size:14px;line-height:1.8;color:#737b8d;margin-top:19px}
+.profile-links{justify-content:center;margin:26px 0 6px;gap:0;font-size:14px}
+.profile-links a{font-weight:700;padding:4px 0}
+.profile-links span{margin:0 17px}
+.news-heading{background:#efeff5;color:#8a83bd;text-align:center;border:0;border-radius:6px;padding:10px 15px;font-size:24px;letter-spacing:0}
+.news{margin-top:14px;padding:25px 31px;border:0;background:#fff;border-radius:6px;box-shadow:0 3px 12px rgba(33,40,66,.06);line-height:1.8}
+.news strong{font-size:14px;color:#424859;margin-right:4px}
+@media(max-width:600px){.profile{padding:32px 0 7px;margin-bottom:28px}.profile h1{gap:11px;font-size:29px;margin-bottom:22px}.name-zh{font-size:23px;letter-spacing:1px}.profile-bio{font-size:14px;line-height:1.85}.profile-bio+ .profile-bio{font-size:13px;line-height:1.8;margin-top:17px}.profile-links{font-size:13px;margin-top:22px}.news-heading{font-size:22px;padding:10px}.news{padding:20px 21px;font-size:13px}.news strong{font-size:13px}}

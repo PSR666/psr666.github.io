@@ -12,10 +12,10 @@ header{position:sticky;z-index:20;top:0;height:66px;display:flex;align-items:cen
 .profile{max-width:780px;margin:0 auto 35px;padding:49px 15px 12px;text-align:center}
 .profile h1{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:15px;font-size:36px;line-height:1.35;letter-spacing:-.6px;text-align:center;margin:0 0 27px}
 .name-zh{font-size:27px;font-weight:500;letter-spacing:2px;color:#6a8295}
-.profile-bio{max-width:750px;margin:0 auto 17px;font-size:15px;line-height:1.85;text-align:center;color:#505b70}
+.profile-bio{max-width:750px;margin:0 auto 17px;font-size:15px;line-height:1.85;text-align:left;color:#505b70}
 .profile-bio strong{font-weight:700;color:#46769a;white-space:nowrap}
-.profile-bio+ .profile-bio{max-width:710px;font-size:14px;line-height:1.8;color:#737b8d;margin-top:19px}
-.profile-links{justify-content:center;margin:26px 0 6px;gap:0;font-size:14px}
+.profile-bio+ .profile-bio{max-width:750px;font-size:14px;line-height:1.8;color:#737b8d;margin-top:19px}
+.profile-links{justify-content:flex-start;margin:26px 0 6px;gap:0;font-size:14px}
 .profile-links a{font-weight:700;padding:4px 0}
 .profile-links span{margin:0 17px}
 .news-heading{background:#e8f3fb;color:#6d9ebf;text-align:center;border:0;border-radius:6px;padding:10px 15px;font-size:24px;letter-spacing:0}

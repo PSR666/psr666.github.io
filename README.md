@@ -2,4 +2,4 @@
 
 [Academic homepage · 学术个人主页](https://psr666.github.io/)
 
-Embodied AI · Robot Learning · Image Restoration
+Embodied Intelligence · AI Agents · Robot Learning

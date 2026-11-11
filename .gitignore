@@ -1,0 +1,14 @@
+# This repository contains only public homepage files.
+*
+!/.gitignore
+!/.nojekyll
+!/README.md
+!/OFL.txt
+!/index.html
+!/style.css
+!/script.js
+!/robots.txt
+!/sitemap.xml
+!/lato-regular.woff2
+!/lato-bold.woff2
+!/sler-framework.png

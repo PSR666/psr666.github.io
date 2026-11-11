@@ -22,3 +22,8 @@ header{position:sticky;z-index:20;top:0;height:66px;display:flex;align-items:cen
 .news{margin-top:14px;padding:25px 31px;border:0;background:#fff;border-radius:6px;box-shadow:0 3px 12px rgba(33,40,66,.06);line-height:1.8}
 .news strong{font-size:14px;color:#424859;margin-right:4px}
 @media(max-width:600px){.profile{padding:32px 0 7px;margin-bottom:28px}.profile h1{gap:11px;font-size:29px;margin-bottom:22px}.name-zh{font-size:23px;letter-spacing:1px}.profile-bio{font-size:14px;line-height:1.85}.profile-bio+ .profile-bio{font-size:13px;line-height:1.8;margin-top:17px}.profile-links{font-size:13px;margin-top:22px}.news-heading{font-size:22px;padding:10px}.news{padding:20px 21px;font-size:13px}.news strong{font-size:13px}}
+
+/* Compact conference and presentation labels. */
+.venue{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:9px 0}
+.venue-badge{display:inline-block;padding:2px 7px;border:1px solid #dfe8ef;border-radius:4px;background:#edf3f8;color:#5f7688;font-size:10px;line-height:1.6;letter-spacing:.1px}
+.oral-badge{display:inline-block;padding:2px 7px;border:1px solid #f0dfd1;border-radius:4px;background:#fff2e9;color:#986b4b;font-size:10px;font-weight:700;line-height:1.6}
